@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Tanyim Hassan Auvy
+N:Auvy;Tanyim Hassan;;;
+TITLE:Computer Science Student and RAG Researcher
+EMAIL;TYPE=INTERNET:thassanauvy@gmail.com
+TEL;TYPE=CELL:+8801310268499
+URL:https://github.com/thassanauvy
+NOTE:Interested in RAG, reinforcement learning, algorithms, databases, web and mobile development.
+END:VCARD
