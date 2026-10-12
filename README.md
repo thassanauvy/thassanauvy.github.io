@@ -34,3 +34,11 @@ For a root profile website, name the repository `YOUR-USERNAME.github.io`.
 - Styling: `styles.css`
 - Interactions: `script.js`
 - Profile photo and resume: `assets/`
+
+## Update the resume
+
+The editable resume is `assets/Tanyim_Hassan_Auvy_Resume.html`. Edit its content,
+then open it in Chrome and print to **Save as PDF** using A4 paper, 100% scale,
+and no browser headers or footers. The HTML includes the two-page print layout.
+Save the result as `assets/Tanyim_Hassan_Auvy_Resume.pdf` so the portfolio's
+download links serve the updated resume.

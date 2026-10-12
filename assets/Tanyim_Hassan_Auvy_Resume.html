@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tanyim Hassan Auvy — Resume</title>
+  <style>
+    :root { color-scheme: light; --ink: #14282e; --muted: #4c6872; --teal: #009e86; --rule: #cddfe1; }
+    * { box-sizing: border-box; }
+    @page { size: A4; margin: 0; }
+    html { background: #eef2f3; }
+    body { margin: 0; color: var(--ink); font: 10pt/1.4 Arial, "Liberation Sans", sans-serif; }
+    a { color: var(--teal); text-decoration: none; }
+    p { margin: 0 0 2.4mm; }
+    .page { width: 210mm; min-height: 297mm; margin: 8mm auto; padding: 16mm 18mm 18mm; background: white; position: relative; }
+    .page + .page { break-before: page; }
+    .identity { margin-bottom: 5mm; }
+    h1 { margin: 0 0 1mm; text-align: center; font-size: 26pt; line-height: 1.2; }
+    .headline { color: var(--teal); font-size: 11.5pt; font-weight: 700; margin-bottom: 2mm; }
+    .contact { color: var(--muted); font-size: 9.2pt; line-height: 1.55; }
+    .contact a.contact-detail { color: var(--muted); }
+    h2 { margin: 5mm 0 3mm; padding-bottom: 1.4mm; color: var(--teal); border-bottom: 0.3mm solid var(--rule); font-size: 12pt; line-height: 1.2; text-transform: uppercase; }
+    h3 { margin: 0; font-size: 10.8pt; line-height: 1.25; }
+    .meta { margin: 0 0 2mm; color: var(--teal); font-size: 9.2pt; font-weight: 700; }
+    .education { margin-bottom: 5mm; }
+    .research ul { padding-left: 3.4mm; margin: 2mm 0; }
+    .research li { margin-bottom: 1.5mm; }
+    .research-link { font-size: 9pt; }
+    .skills { width: 100%; border-collapse: collapse; color: var(--muted); font-size: 8.7pt; }
+    .skills th, .skills td { border: 0.25mm solid var(--rule); padding: 1.7mm 2.3mm; text-align: left; }
+    .skills th { width: 37mm; background: #eef8f6; }
+    .projects-page { font-size: 9.4pt; line-height: 1.3; }
+    .projects-page h2:first-child { margin-top: 0; }
+    .project { margin-bottom: 3mm; break-inside: avoid; }
+    .project h3 { font-size: 10.6pt; }
+    .project .meta { font-size: 8.8pt; margin-bottom: 1.3mm; }
+    .project p { margin-bottom: 1.2mm; }
+    .stack { color: var(--muted); font-size: 8.7pt; }
+    .career { break-inside: avoid; }
+    .career h2 { margin-top: 2.5mm; }
+    .career p { margin-bottom: 1.6mm; }
+    footer { position: absolute; left: 16mm; right: 16mm; bottom: 6mm; border-top: 0.25mm solid var(--rule); padding-top: 1mm; text-align: center; font-size: 8pt; color: var(--muted); }
+    @media print {
+      html { background: white; }
+      body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .page { margin: 0; height: 297mm; }
+    }
+    @media screen and (max-width: 800px) {
+      .page { width: 100%; min-height: auto; margin: 0; padding: 8mm 5mm 16mm; }
+      .page + .page { border-top: 1px solid var(--rule); }
+      h1 { font-size: 23pt; }
+      .skills th { width: 28mm; }
+      footer { position: static; margin-top: 8mm; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="page" aria-label="Profile, education, research, and skills">
+      <header class="identity">
+        <h1>Tanyim Hassan Auvy</h1>
+        <p class="headline">Computer Science Student | Software Developer | RAG Researcher</p>
+        <div class="contact">
+          Bangladesh &bull; <a class="contact-detail" href="mailto:thassanauvy@gmail.com">thassanauvy@gmail.com</a> &bull; <a class="contact-detail" href="tel:+8801310268499">+880 1310-268499</a><br>
+          <a href="https://github.com/thassanauvy">github.com/thassanauvy</a> &bull; <a href="https://www.linkedin.com/in/thassanauvy">linkedin.com/in/thassanauvy</a>
+          &bull; <a href="https://thassanauvy.github.io">thassanauvy.github.io</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Professional Summary</h2>
+        <p>Computer Science student at BRAC University with project experience across full-stack web development, Android applications, computer graphics, systems programming, and database tools. Current thesis work focuses on reinforcement-learning-based retrieval triggering for Retrieval-Augmented Generation. Interested in building efficient AI-enabled applications for mobile and resource-constrained devices.</p>
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
+        <h3>B.Sc. in Computer Science - BRAC University</h3>
+        <p class="meta">Expected January 2027</p>
+        <p>Relevant interests: data structures and algorithms, database systems, software engineering, large language models, Retrieval-Augmented Generation, and reinforcement learning.</p>
+      </section>
+
+      <section class="research">
+        <h2>Research Experience</h2>
+        <h3>Reward-based Retrieval Triggering for Large Language Models</h3>
+        <p class="meta">Ongoing thesis research | 2025-2026 | Supervised by Dr. Swakkhar Shatabda</p>
+        <p>Developing an RL-enhanced RAG framework that learns when retrieval is necessary instead of relying only on fixed rules. Planned evaluation uses 2WikiMultihopQA, HotpotQA, IIRC, and StrategyQA with LLaMA-2-Chat and Vicuna model families.</p>
+        <ul>
+          <li>Coding and experiment implementation</li>
+          <li>Model training and evaluation support</li>
+          <li>LaTeX editing and research poster design</li>
+        </ul>
+        <a class="research-link" href="https://github.com/thassanauvy/RAG-RL/blob/main/P2_FinalPaper.pdf">Research draft</a>
+      </section>
+
+      <section>
+        <h2>Technical Skills</h2>
+        <table class="skills" aria-label="Technical skills">
+          <tbody>
+            <tr><th scope="row">Programming</th><td>C, C#, Java, Python, Kotlin, JavaScript, Bash</td></tr>
+            <tr><th scope="row">Web</th><td>Vue.js, React, Express.js, Flask API, HTML, CSS</td></tr>
+            <tr><th scope="row">Databases</th><td>PostgreSQL, MariaDB, MySQL, DBeaver, DBMS</td></tr>
+            <tr><th scope="row">Research &amp; Tools</th><td>LLMs, RAG, Reinforcement Learning, DSA, Linux, Docker, Android Studio, OpenGL</td></tr>
+          </tbody>
+        </table>
+      </section>
+      <footer>Tanyim Hassan Auvy &nbsp;&bull;&nbsp; Resume &nbsp;&bull;&nbsp; Page 1</footer>
+    </section>
+
+    <section class="page projects-page" aria-label="Selected projects and career direction">
+      <h2>Selected Projects</h2>
+
+      <article class="project">
+        <h3>MohollarDokan</h3>
+        <p class="meta">Cross-platform Commerce App | Android &amp; Desktop</p>
+        <p>Bilingual English/Bangla shopping app with owner inventory management, customer shopping flows, and multi-shop checkout. OpenStreetMap shop and delivery maps with server-side delivery-radius validation and per-owner data isolation.</p>
+        <p class="stack"><strong>Stack:</strong> Kotlin Multiplatform, Compose, Ktor, SQLite, OpenStreetMap &bull; <a href="https://github.com/thassanauvy/MohollarDokan">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>SmartGeo</h3>
+        <p class="meta">Location-based Android App</p>
+        <p>OpenStreetMap app for GPS-tagged landmarks and visits, backed by a shared Kotlin Multiplatform/Ktor module. Room caching and WorkManager persist visit submissions and retry background polling when connectivity returns.</p>
+        <p class="stack"><strong>Stack:</strong> Kotlin, Jetpack Compose, Ktor, Room, WorkManager, OpenStreetMap &bull; <a href="https://github.com/thassanauvy/SmartGeo">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>WelcomeSQL</h3>
+        <p class="meta">Solo | Full Stack | Web Development</p>
+        <p>Interactive SQL learning platform for querying, filtering, joining, aggregating, creating tables, and modifying data.</p>
+        <p class="stack"><strong>Stack:</strong> Flask API, Vue.js, MySQL &bull; <a href="https://github.com/thassanauvy/WelcomeSQL">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>EveSync</h3>
+        <p class="meta">Solo | Full Stack | Android App</p>
+        <p>Menstrual-cycle tracking application with period logging, cycle prediction, and practical guidance.</p>
+        <p class="stack"><strong>Stack:</strong> Kotlin, Android &bull; <a href="https://github.com/thassanauvy/EveSync">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>SeaSurf 3D</h3>
+        <p class="meta">Team of 3 | Full Stack | 3D Game</p>
+        <p>Academic surfing simulator featuring real-time 3D graphics and interactive game mechanics.</p>
+        <p class="stack"><strong>Stack:</strong> Python, OpenGL &bull; <a href="https://github.com/thassanauvy/SeaSurf3D">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>InternLink</h3>
+        <p class="meta">Team of 4 | Backend &amp; Team Lead | Web Platform</p>
+        <p>Internship management system connecting students, employers, and administrators through structured application workflows.</p>
+        <p class="stack"><strong>Stack:</strong> JavaScript, Vue.js, PostgreSQL &bull; <a href="https://github.com/adri-ja02/CSE470_Project">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>VangtiChai</h3>
+        <p class="meta">Solo | Full Stack | Cross-platform Mobile App</p>
+        <p>Money-change calculator for quickly computing practical note and coin combinations.</p>
+        <p class="stack"><strong>Stack:</strong> Kotlin Multiplatform &bull; <a href="https://github.com/thassanauvy/VangtiChai">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>VS File System</h3>
+        <p class="meta">Team of 3 | Code &amp; Diagrams | Systems Programming</p>
+        <p>Very-simple file-system image generator supported by low-level filesystem structures and diagrams.</p>
+        <p class="stack"><strong>Stack:</strong> C, File Systems &bull; <a href="https://github.com/shadmanshafin49/MiniVSFS-A-C-based-VSFS-Image-Generator">Repository</a></p>
+      </article>
+
+      <article class="project">
+        <h3>Tango</h3>
+        <p class="meta">Solo | Full Stack | Puzzle Game</p>
+        <p>Python puzzle game designed around logical thinking, interaction, and problem solving.</p>
+        <p class="stack"><strong>Stack:</strong> Python &bull; <a href="https://github.com/thassanauvy/Tango">Repository</a></p>
+      </article>
+
+      <section class="career">
+        <h2>Career Direction</h2>
+        <p><strong>Preferred fields:</strong> LLM research, software development, and computer science instruction.</p>
+        <p><strong>Research interests:</strong> Retrieval-Augmented Generation, reinforcement learning, and advanced algorithms.</p>
+        <p><strong>Future study:</strong> M.Engg. in CSE, with interest in European Union-affiliated programs. <strong>Additional languages:</strong> Spanish and Turkish.</p>
+      </section>
+      <footer>Tanyim Hassan Auvy &nbsp;&bull;&nbsp; Resume &nbsp;&bull;&nbsp; Page 2</footer>
+    </section>
+  </main>
+</body>
+</html>
